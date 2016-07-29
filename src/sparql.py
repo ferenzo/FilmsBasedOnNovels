@@ -3,7 +3,7 @@ from lxml import etree
 from rdflib import namespace
 import csv
 
-HTML_PATH = "../html/"
+HTML_PATH = "../result/"
 DBP_NS = namespace.Namespace("http://dbpedia.org/property/")
 DBR_NS = namespace.Namespace("http://dbpedia.org/resource/")
 DBO_NS = namespace.Namespace("http://dbpedia.org/ontology/")

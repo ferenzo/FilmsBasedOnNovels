@@ -1,0 +1,396 @@
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix gr: <http://www.frohde.de/ontology/goodreads/> .
+@prefix omdb: <http://www.frohde.de/ontology/omdb/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dbr:A_Love_in_Germany dbp:name "A Love in Germany" .
+
+<http://dbpedia.org/resource/Alone_in_Berlin_(film)> dbo:basedOn dbr:Every_Man_Dies_Alone ;
+    dbp:name "Alone in Berlin" ;
+    omdb:omdbID <http://www.frohde.de/ontology/omdb/omdbID#tt3026488> .
+
+<http://dbpedia.org/resource/Alraune_(1952_film)> dbp:name "Alraune" ;
+    dbp:released "1952-01-01T00:00:00"^^xsd:dateTime .
+
+<http://dbpedia.org/resource/Arch_of_Triumph_(1948_film)> dbo:basedOn <http://dbpedia.org/resource/Arch_of_Triumph_(novel)> ;
+    dbp:name "Arch of Triumph" ;
+    dbp:released "1948-01-01T00:00:00"^^xsd:dateTime ;
+    omdb:omdbID <http://www.frohde.de/ontology/omdb/omdbID#tt0040109> .
+
+<http://dbpedia.org/resource/Auf_Wiedersehen_(film)> dbp:name "Auf Wiedersehn" .
+
+<http://dbpedia.org/resource/Berlin_Alexanderplatz_(miniseries)> dbo:basedOn dbr:Berlin_Alexanderplatz ;
+    dbp:name "Berlin Alexanderplatz" ;
+    dbp:released "1980-01-01T00:00:00"^^xsd:dateTime .
+
+<http://dbpedia.org/resource/Buddenbrooks_(film)> dbo:basedOn dbr:Buddenbrooks ;
+    dbp:name "Buddenbrooks" ;
+    omdb:omdbID <http://www.frohde.de/ontology/omdb/omdbID#tt1058601> .
+
+dbr:Das_Boot dbp:name "Das Boot" .
+
+dbr:Das_Experiment dbp:name "Das Experiment" .
+
+<http://dbpedia.org/resource/Death_in_Venice_(film)> dbo:basedOn dbr:Death_in_Venice ;
+    dbp:name "Death in Venice" ;
+    dbp:released "1971-01-01T00:00:00"^^xsd:dateTime ;
+    omdb:omdbID <http://www.frohde.de/ontology/omdb/omdbID#tt0067445> .
+
+dbr:Der_Ladenprinz dbp:name "Der Ladenprinz" ;
+    dbp:released "1928-01-01T00:00:00"^^xsd:dateTime .
+
+dbr:Everyone_Dies_Alone dbo:basedOn dbr:Every_Man_Dies_Alone ;
+    dbp:name "Everyone Dies Alone" ;
+    dbp:released "1976-01-01T00:00:00"^^xsd:dateTime ;
+    omdb:omdbID <http://www.frohde.de/ontology/omdb/omdbID#tt0073200> .
+
+<http://dbpedia.org/resource/Hitlerjunge_Quex_(film)> dbp:name "Hitlerjunge Quex" ;
+    dbp:released "1933-01-01T00:00:00"^^xsd:dateTime .
+
+<http://dbpedia.org/resource/Inkheart_(film)> dbo:basedOn dbr:Inkheart ;
+    dbp:name "Inkheart" ;
+    omdb:omdbID <http://www.frohde.de/ontology/omdb/omdbID#tt0494238> .
+
+<http://dbpedia.org/resource/Innocence_(2004_film)> dbp:name "Innocence" ;
+    dbp:released "2004-01-01T00:00:00"^^xsd:dateTime .
+
+dbr:Jakob_the_Liar dbo:basedOn dbr:Jacob_the_Liar ;
+    dbp:name "Jakob the Liar" ;
+    omdb:omdbID <http://www.frohde.de/ontology/omdb/omdbID#tt0120716> .
+
+<http://dbpedia.org/resource/Krabat_(film)> dbp:name "Krabat" .
+
+<http://dbpedia.org/resource/Morituri_(1965_film)> dbp:name "Morituri" ;
+    dbp:released "1965-01-01T00:00:00"^^xsd:dateTime .
+
+dbr:Not_Reconciled dbp:name "Not Reconciled" .
+
+<http://dbpedia.org/resource/Perfume:_The_Story_of_a_Murderer_(film)> dbo:basedOn <http://dbpedia.org/resource/Perfume_(novel)> ;
+    dbp:name "Perfume: The Story of a Murderer" ;
+    omdb:omdbID <http://www.frohde.de/ontology/omdb/omdbID#tt0396171> .
+
+<http://dbpedia.org/resource/Phantom_(1922_film)> dbp:name "Phantom" ;
+    dbp:released "1922-01-01T00:00:00"^^xsd:dateTime .
+
+dbr:Queen_to_Play dbp:name "Queen to Play" .
+
+dbr:Struggle_for_the_Matterhorn dbp:name "Struggle for the Matterhorn" .
+
+dbr:The_Blue_Angel dbo:basedOn dbr:Professor_Unrat ;
+    dbp:name "The Blue Angel" ;
+    omdb:omdbID <http://www.frohde.de/ontology/omdb/omdbID#tt0020697> .
+
+dbr:The_Bread_of_Those_Early_Years dbo:basedOn <http://dbpedia.org/resource/The_Bread_of_Those_Early_Years_(novel)> ;
+    dbp:name "The Bread of Those Early Years" ;
+    omdb:omdbID <http://www.frohde.de/ontology/omdb/omdbID#tt0054705> .
+
+<http://dbpedia.org/resource/The_Case_of_Sergeant_Grischa_(film)> dbp:name "The Case of Sergeant Grischa" .
+
+<http://dbpedia.org/resource/The_Cloud_(film)> dbp:name "The Cloud" .
+
+<http://dbpedia.org/resource/The_Death_Ship_(1959_film)> dbo:basedOn dbr:The_Death_Ship ;
+    dbp:name "The Death Ship" ;
+    dbp:released "1959-01-01T00:00:00"^^xsd:dateTime .
+
+<http://dbpedia.org/resource/The_Little_Vampire_(film)> dbo:basedOn dbr:Der_kleine_Vampir ;
+    dbp:name "The Little Vampire" ;
+    dbp:released "2000-01-01T00:00:00"^^xsd:dateTime ;
+    omdb:omdbID <http://www.frohde.de/ontology/omdb/omdbID#tt0192255> .
+
+<http://dbpedia.org/resource/The_Mad_Bomberg_(1932_film)> dbo:basedOn <http://dbpedia.org/resource/The_Mad_Bomberg_(novel)> ;
+    dbp:name "The Mad Bomberg" ;
+    dbp:released "1932-01-01T00:00:00"^^xsd:dateTime .
+
+<http://dbpedia.org/resource/The_Mad_Bomberg_(1957_film)> dbo:basedOn <http://dbpedia.org/resource/The_Mad_Bomberg_(novel)> ;
+    dbp:name "The Mad Bomberg" ;
+    dbp:released "1957-01-01T00:00:00"^^xsd:dateTime ;
+    omdb:omdbID <http://www.frohde.de/ontology/omdb/omdbID#tt0051094> .
+
+<http://dbpedia.org/resource/The_NeverEnding_Story_(film)> dbo:basedOn dbr:The_Neverending_Story ;
+    dbp:name "The NeverEnding Story" ;
+    omdb:omdbID <http://www.frohde.de/ontology/omdb/omdbID#tt0088323> .
+
+dbr:The_Night_of_the_Generals dbp:name "The Night of the Generals" .
+
+<http://dbpedia.org/resource/The_Parent_Trap_(1998_film)> dbp:name "The Parent Trap" ;
+    dbp:released "1998-01-01T00:00:00"^^xsd:dateTime .
+
+<http://dbpedia.org/resource/The_Reader_(2008_film)> dbo:basedOn dbr:The_Reader ;
+    dbp:name "The Reader" ;
+    dbp:released "2008-01-01T00:00:00"^^xsd:dateTime ;
+    omdb:omdbID <http://www.frohde.de/ontology/omdb/omdbID#tt0976051> .
+
+<http://dbpedia.org/resource/The_Seventh_Cross_(film)> dbp:name "The Seventh Cross" .
+
+dbr:The_Sons_of_Great_Bear dbp:name "The Sons of Great Bear" .
+
+<http://dbpedia.org/resource/The_Tin_Drum_(film)> dbo:basedOn dbr:The_Tin_Drum ;
+    dbp:name "The Tin Drum" ;
+    omdb:omdbID <http://www.frohde.de/ontology/omdb/omdbID#tt0078875> .
+
+<http://dbpedia.org/resource/The_Treasure_of_the_Sierra_Madre_(film)> dbo:basedOn dbr:The_Treasure_of_the_Sierra_Madre ;
+    dbp:name "The Treasure of the Sierra Madre" ;
+    omdb:omdbID <http://www.frohde.de/ontology/omdb/omdbID#tt0040897> .
+
+<http://dbpedia.org/resource/Three_Women_(1924_film)> dbp:name "Three Women" ;
+    dbp:released "1924-01-01T00:00:00"^^xsd:dateTime .
+
+dbr:Women_Are_Better_Diplomats dbp:name "Women Are Better Diplomats" .
+
+dbr:Alfred_Döblin dbp:name "Alfred Döblin" .
+
+dbr:Angela_Sommer-Bodenburg dbp:name "Angela Sommer-Bodenburg" .
+
+<http://dbpedia.org/resource/Arch_of_Triumph_(novel)> dbo:author dbr:Erich_Maria_Remarque ;
+    dbp:name "Arch of Triumph" ;
+    gr:bookID <http://www.frohde.de/ontology/goodreads/bookID#672948> .
+
+dbr:Berlin_Alexanderplatz dbo:author dbr:Alfred_Döblin ;
+    dbp:name "Berlin Alexanderplatz" ;
+    gr:bookID <http://www.frohde.de/ontology/goodreads/bookID#243381> .
+
+dbr:Bernhard_Schlink dbp:name "Bernhard Schlink" .
+
+dbr:Buddenbrooks dbo:author dbr:Thomas_Mann ;
+    dbp:name "Buddenbrooks" ;
+    gr:bookID <http://www.frohde.de/ontology/goodreads/bookID#80890> .
+
+dbr:Cornelia_Funke dbp:name "Cornelia Funke" .
+
+dbr:Death_in_Venice dbo:author dbr:Thomas_Mann ;
+    dbp:name "Death in Venice" ;
+    gr:bookID <http://www.frohde.de/ontology/goodreads/bookID#53061> .
+
+dbr:Der_kleine_Vampir dbo:author dbr:Angela_Sommer-Bodenburg ;
+    dbp:name "The Little Vampire" ;
+    gr:bookID <http://www.frohde.de/ontology/goodreads/bookID#1367809> .
+
+dbr:Erich_Maria_Remarque dbp:name "Erich Maria Remarque" .
+
+dbr:Günter_Grass dbp:name "Günter Grass" .
+
+dbr:Hans_Fallada dbp:name "Hans Fallada" .
+
+dbr:Heinrich_Böll dbp:name "Böll, Heinrich" .
+
+dbr:Heinrich_Mann dbp:name "Heinrich Mann" .
+
+dbr:Inkheart dbo:author dbr:Cornelia_Funke ;
+    dbp:name "Inkheart" ;
+    gr:bookID <http://www.frohde.de/ontology/goodreads/bookID#28194> .
+
+dbr:Jacob_the_Liar dbo:author dbr:Jurek_Becker ;
+    dbp:name "Jacob the Liar" ;
+    gr:bookID <http://www.frohde.de/ontology/goodreads/bookID#639374> .
+
+dbr:Josef_Winckler dbp:name "Josef Winckler" .
+
+dbr:Jurek_Becker dbp:name "Jurek Becker" .
+
+dbr:Michael_Ende dbp:name "Ende, Michael" .
+
+dbr:Patrick_Süskind dbp:name "Patrick Süskind" .
+
+<http://dbpedia.org/resource/Perfume_(novel)> dbo:author dbr:Patrick_Süskind ;
+    dbp:name "Perfume: The Story of a Murderer" ;
+    gr:bookID <http://www.frohde.de/ontology/goodreads/bookID#343> .
+
+dbr:Professor_Unrat dbo:author dbr:Heinrich_Mann ;
+    dbp:name "Professor Unrat" ;
+    gr:bookID <http://www.frohde.de/ontology/goodreads/bookID#1147020> .
+
+<http://dbpedia.org/resource/The_Bread_of_Those_Early_Years_(novel)> dbo:author dbr:Heinrich_Böll ;
+    dbp:name "The Bread of Those Early Years" ;
+    gr:bookID <http://www.frohde.de/ontology/goodreads/bookID#78540> .
+
+dbr:The_Death_Ship dbo:author dbr:B._Traven ;
+    dbp:name "The Death Ship" ;
+    gr:bookID <http://www.frohde.de/ontology/goodreads/bookID#57674> .
+
+dbr:The_Neverending_Story dbo:author dbr:Michael_Ende ;
+    dbp:name "The Neverending Story" ;
+    gr:bookID <http://www.frohde.de/ontology/goodreads/bookID#27712> .
+
+dbr:The_Reader dbo:author dbr:Bernhard_Schlink ;
+    dbp:name "The Reader" ;
+    gr:bookID <http://www.frohde.de/ontology/goodreads/bookID#101299> .
+
+dbr:The_Tin_Drum dbo:author dbr:Günter_Grass ;
+    dbp:name "The Tin Drum" ;
+    gr:bookID <http://www.frohde.de/ontology/goodreads/bookID#35743> .
+
+dbr:The_Treasure_of_the_Sierra_Madre dbo:author dbr:B._Traven ;
+    dbp:name "Treasure of the Sierra Madre" ;
+    gr:bookID <http://www.frohde.de/ontology/goodreads/bookID#57658> .
+
+<http://www.frohde.de/ontology/goodreads/bookID#101299> gr:rating 3.72 ;
+    gr:title "The Reader" ;
+    gr:year "1995-01-01T00:00:00"^^xsd:dateTime .
+
+<http://www.frohde.de/ontology/goodreads/bookID#1147020> gr:rating 3.68 ;
+    gr:title "Professor Unrat" ;
+    gr:year "1905-01-01T00:00:00"^^xsd:dateTime .
+
+<http://www.frohde.de/ontology/goodreads/bookID#1367809> gr:rating 3.99 ;
+    gr:title "The Little Vampire" ;
+    gr:year "1979-01-01T00:00:00"^^xsd:dateTime .
+
+<http://www.frohde.de/ontology/goodreads/bookID#243381> gr:rating 3.81 ;
+    gr:title "Berlin Alexanderplatz" ;
+    gr:year "1929-01-01T00:00:00"^^xsd:dateTime .
+
+<http://www.frohde.de/ontology/goodreads/bookID#27712> gr:rating 4.17 ;
+    gr:title "The Neverending Story" ;
+    gr:year "1979-01-01T00:00:00"^^xsd:dateTime .
+
+<http://www.frohde.de/ontology/goodreads/bookID#28194> gr:rating 3.85 ;
+    gr:title "Inkheart (Inkworld, #1)" ;
+    gr:year "2003-01-01T00:00:00"^^xsd:dateTime .
+
+<http://www.frohde.de/ontology/goodreads/bookID#3344411> gr:rating 4.19 ;
+    gr:title "Every Man Dies Alone" ;
+    gr:year "1947-01-01T00:00:00"^^xsd:dateTime .
+
+<http://www.frohde.de/ontology/goodreads/bookID#343> gr:rating 3.98 ;
+    gr:title "Perfume: The Story of a Murderer" ;
+    gr:year "1985-01-01T00:00:00"^^xsd:dateTime .
+
+<http://www.frohde.de/ontology/goodreads/bookID#35743> gr:rating 3.95 ;
+    gr:title "The Tin Drum" ;
+    gr:year "1959-01-01T00:00:00"^^xsd:dateTime .
+
+<http://www.frohde.de/ontology/goodreads/bookID#53061> gr:rating 3.72 ;
+    gr:title "Death in Venice" ;
+    gr:year "1912-01-01T00:00:00"^^xsd:dateTime .
+
+<http://www.frohde.de/ontology/goodreads/bookID#57658> gr:rating 4.09 ;
+    gr:title "The Treasure of the Sierra Madre" ;
+    gr:year "1927-01-01T00:00:00"^^xsd:dateTime .
+
+<http://www.frohde.de/ontology/goodreads/bookID#57674> gr:rating 4.19 ;
+    gr:title "The Death Ship" ;
+    gr:year "1926-01-01T00:00:00"^^xsd:dateTime .
+
+<http://www.frohde.de/ontology/goodreads/bookID#639374> gr:rating 3.77 ;
+    gr:title "Jakob the Liar" ;
+    gr:year "1969-01-01T00:00:00"^^xsd:dateTime .
+
+<http://www.frohde.de/ontology/goodreads/bookID#672948> gr:rating 4.39 ;
+    gr:title "Arch of Triumph: A Novel of a Man Without a Country" ;
+    gr:year "1945-01-01T00:00:00"^^xsd:dateTime .
+
+<http://www.frohde.de/ontology/goodreads/bookID#78540> gr:rating 3.53 ;
+    gr:title "The Bread of Those Early Years" ;
+    gr:year "1955-01-01T00:00:00"^^xsd:dateTime .
+
+<http://www.frohde.de/ontology/goodreads/bookID#80890> gr:rating 4.13 ;
+    gr:title "Buddenbrooks: The Decline of a Family" ;
+    gr:year "1901-01-01T00:00:00"^^xsd:dateTime .
+
+<http://www.frohde.de/ontology/omdb/omdbID#tt0020697> omdb:country "Germany" ;
+    omdb:imdbRating 7.8 ;
+    omdb:title "The Blue Angel" ;
+    omdb:tomatoRating 8.2 ;
+    omdb:year "1930-01-01T00:00:00"^^xsd:dateTime .
+
+<http://www.frohde.de/ontology/omdb/omdbID#tt0040109> omdb:country "USA" ;
+    omdb:imdbRating 6.4 ;
+    omdb:title "Arch of Triumph" ;
+    omdb:year "1948-01-01T00:00:00"^^xsd:dateTime .
+
+<http://www.frohde.de/ontology/omdb/omdbID#tt0040897> omdb:country "USA" ;
+    omdb:imdbRating 8.3 ;
+    omdb:title "The Treasure of the Sierra Madre" ;
+    omdb:tomatoRating 9.0 ;
+    omdb:year "1948-01-01T00:00:00"^^xsd:dateTime .
+
+<http://www.frohde.de/ontology/omdb/omdbID#tt0051094> omdb:country "West Germany" ;
+    omdb:imdbRating 5.0 ;
+    omdb:title "The Mad Bomberg" ;
+    omdb:year "1957-01-01T00:00:00"^^xsd:dateTime .
+
+<http://www.frohde.de/ontology/omdb/omdbID#tt0054705> omdb:country "West Germany" ;
+    omdb:imdbRating 7.7 ;
+    omdb:title "The Bread of Those Early Years" ;
+    omdb:year "1962-01-01T00:00:00"^^xsd:dateTime .
+
+<http://www.frohde.de/ontology/omdb/omdbID#tt0067445> omdb:country "Italy, France" ;
+    omdb:imdbRating 7.5 ;
+    omdb:title "Death in Venice" ;
+    omdb:tomatoRating 7.3 ;
+    omdb:year "1971-01-01T00:00:00"^^xsd:dateTime .
+
+<http://www.frohde.de/ontology/omdb/omdbID#tt0073200> omdb:country "West Germany" ;
+    omdb:imdbRating 6.8 ;
+    omdb:title "Everyone Dies Alone" ;
+    omdb:year "1976-01-01T00:00:00"^^xsd:dateTime .
+
+<http://www.frohde.de/ontology/omdb/omdbID#tt0078875> omdb:country "West Germany, France, Poland, Yugoslavia" ;
+    omdb:imdbRating 7.6 ;
+    omdb:title "The Tin Drum" ;
+    omdb:tomatoRating 7.3 ;
+    omdb:year "1979-01-01T00:00:00"^^xsd:dateTime .
+
+<http://www.frohde.de/ontology/omdb/omdbID#tt0088323> omdb:country "West Germany, USA" ;
+    omdb:imdbRating 7.4 ;
+    omdb:title "The NeverEnding Story" ;
+    omdb:tomatoRating 7.0 ;
+    omdb:year "1984-01-01T00:00:00"^^xsd:dateTime .
+
+<http://www.frohde.de/ontology/omdb/omdbID#tt0120716> omdb:country "France, Hungary, USA" ;
+    omdb:imdbRating 6.5 ;
+    omdb:title "Jakob the Liar" ;
+    omdb:tomatoRating 4.7 ;
+    omdb:year "1999-01-01T00:00:00"^^xsd:dateTime .
+
+<http://www.frohde.de/ontology/omdb/omdbID#tt0192255> omdb:country "Germany, Netherlands, USA" ;
+    omdb:imdbRating 5.7 ;
+    omdb:title "The Little Vampire" ;
+    omdb:tomatoRating 5.5 ;
+    omdb:year "2000-01-01T00:00:00"^^xsd:dateTime .
+
+<http://www.frohde.de/ontology/omdb/omdbID#tt0396171> omdb:country "Germany, France, Spain, USA" ;
+    omdb:imdbRating 7.5 ;
+    omdb:title "Perfume: The Story of a Murderer" ;
+    omdb:tomatoRating 6.2 ;
+    omdb:year "2006-01-01T00:00:00"^^xsd:dateTime .
+
+<http://www.frohde.de/ontology/omdb/omdbID#tt0494238> omdb:country "Germany, UK, USA" ;
+    omdb:imdbRating 6.1 ;
+    omdb:title "Inkheart" ;
+    omdb:tomatoRating 5.1 ;
+    omdb:year "2008-01-01T00:00:00"^^xsd:dateTime .
+
+<http://www.frohde.de/ontology/omdb/omdbID#tt0976051> omdb:country "USA, Germany" ;
+    omdb:imdbRating 7.6 ;
+    omdb:title "The Reader" ;
+    omdb:tomatoRating 6.4 ;
+    omdb:year "2008-01-01T00:00:00"^^xsd:dateTime .
+
+<http://www.frohde.de/ontology/omdb/omdbID#tt1058601> omdb:country "Germany" ;
+    omdb:imdbRating 5.8 ;
+    omdb:title "Buddenbrooks" ;
+    omdb:year "2008-01-01T00:00:00"^^xsd:dateTime .
+
+<http://www.frohde.de/ontology/omdb/omdbID#tt3026488> omdb:country "UK, France, Germany" ;
+    omdb:imdbRating 5.9 ;
+    omdb:title "Alone in Berlin" ;
+    omdb:tomatoRating 4.8 ;
+    omdb:year "2016-01-01T00:00:00"^^xsd:dateTime .
+
+dbr:B._Traven dbp:name "B. Traven" .
+
+dbr:Every_Man_Dies_Alone dbo:author dbr:Hans_Fallada ;
+    dbp:name "Every Man Dies Alone" ;
+    gr:bookID <http://www.frohde.de/ontology/goodreads/bookID#3344411> .
+
+<http://dbpedia.org/resource/The_Mad_Bomberg_(novel)> dbo:author dbr:Josef_Winckler ;
+    dbp:name "The Mad Bomberg" .
+
+dbr:Thomas_Mann dbp:name "Thomas Mann" .
+
